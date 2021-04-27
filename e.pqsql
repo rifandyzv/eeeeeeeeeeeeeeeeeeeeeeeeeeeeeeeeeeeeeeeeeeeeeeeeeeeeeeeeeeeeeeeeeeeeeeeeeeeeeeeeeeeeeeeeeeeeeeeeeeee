@@ -1,0 +1,48 @@
+CREATE DATABASE e;
+USE e;
+
+CREATE TABLE e (
+	e varchar(20),
+	ee varchar (20),
+	eee varchar (20),
+	eeee varchar (20)
+);
+
+CREATE OR REPLACE PROCEDURE e()
+LANGUAGE PLPGSQL
+AS $$
+BEGIN
+	WHILE 'e' = 'e' LOOP
+		INSERT INTO e (
+		VALUES ('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e'),
+		('e', 'e', 'e', 'e')
+		);
+		END LOOP;
+END;
+$$;
+
+
+CALL e();
